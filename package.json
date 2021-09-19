@@ -1,0 +1,29 @@
+{
+  "home": "http://carloslarrus.github.io/clickFroggy",
+  "name": "base-project",
+  "version": "1.0.0",
+  "description": "We're going to make an interactive froggy which responds to various mouse click events. We'll be concentrating on the click (click), double-click (dblclick) and right-click (contextmenu) events.",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "eslint": "eslint *.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "gh-pages": "^3.2.3",
+    "live-server": "1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-48-2/click-froggy-assignment-carloslarrus.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/FbW-48-2/click-froggy-assignment-carloslarrus/issues"
+  },
+  "homepage": "https://github.com/FbW-48-2/click-froggy-assignment-carloslarrus#readme"
+}

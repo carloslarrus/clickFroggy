@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    width : 99vw;
+    height : 100vh;
+    background-color: rgba(255, 166, 0, 0.445); 
+}
+
+h1 {
+
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    font-size: 3rem;
+}
+h2{
+    width: 25%;
+    margin: auto;
+    font-size: 2rem;
+}
+
+.froggy {
+    position: absolute;
+  
+}
+
+.froggy .froggy-speak {
+    position: relative;
+    left: 40px;
+    top: 10px;
+    color : white;
+    font-size : 2rem;
+    font-style : italic;
+    visibility : hidden;
+}
+
+.froggy-sprite {
+    background-image : url('../images/froggy.png');
+    background-repeat : no-repeat;
+    background-size : 125px; 
+    width : 200px;
+    height : 200px;
+    
+    
+
+}
+
+.froggy .froggy-contextmenu {
+    display: none;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
